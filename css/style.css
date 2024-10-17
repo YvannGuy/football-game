@@ -20,6 +20,9 @@ body {
     width: 600px;
     height: 800px;
     border: 2px solid white;
+    background-image: url('/images/soccer.png'); /* Change to your background image path */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
 }
 
 /* Terrain */
@@ -43,12 +46,8 @@ body {
 }
 
 /* Balle */
-#ball {
+.ball {
     position: absolute;
-    bottom: 60px;
-    left: 50%;
-    width: 20px;
-    height: 20px;
     background-color: white;
     border-radius: 50%;
     transform: translateX(-50%);
